@@ -1,0 +1,13 @@
+@import url('http://fonts.cdnfonts.com/css/arial');
+
+:root {
+  --ui-button-01: #272727;
+}
+
+body {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 30px;
+}
