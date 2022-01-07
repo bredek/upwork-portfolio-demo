@@ -1,19 +1,18 @@
 import React from "react";
-import { Wrapper } from "./styles";
+import { SButton } from "./styles";
 
 export interface IButton {
   color?: string;
   textColor?: string;
   label: string;
-  onClick: () => void;
+  onClick?: () => void;
 }
-/**
- * Primary UI component for user interaction
- */
+
+
 export const Button = ({ label, ...props }: IButton) => {
   return (
-    <Wrapper {...props}>
+    <SButton {...props}>
       {label}
-    </Wrapper>
+    </SButton>
   );
 };

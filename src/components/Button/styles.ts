@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
-interface IWrapper {
+interface ISButton {
   color?: string;
   textColor?: string;
 }
 
-export const Wrapper = styled.button<IWrapper>`
+export const SButton = styled.button<ISButton>`
   padding: 13px 40px;
   background-color: ${(props) =>
     props.color ? props.color : "var(--ui-button-01"};
