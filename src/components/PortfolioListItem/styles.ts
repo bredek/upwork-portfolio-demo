@@ -3,6 +3,7 @@ import styled, { css } from "styled-components";
 export const SPortfolioListItem = styled.div`
   width: 585px;
   height: 601px;
+  margin-bottom: 40px;
 
   display: flex;
   flex-direction: column;

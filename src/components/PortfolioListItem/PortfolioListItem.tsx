@@ -9,7 +9,7 @@ import {
 } from "./styles";
 
 export interface IPortfolioListItem {
-  imgSource: string;
+  imgSource?: string;
   title?: string;
   description?: string;
 }
